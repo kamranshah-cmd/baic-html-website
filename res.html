@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>School Admission Form</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #235a85;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: rgb(174, 153, 153);
+            padding: 25px;
+            border-radius: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #1769aa;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            box-sizing: border-box;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            background: #1769aa;
+            color: white;
+            border: none;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>School Admission Form</h1>
+
+    <form>
+        <h3>Student Information</h3>
+
+        <label>Student Name</label>
+        <input type="text" required>
+
+        <label>Father Name</label>
+        <input type="text" required>
+
+        <label>Date of Birth</label>
+        <input type="date">
+
+        <label>Gender</label>
+        <select>
+            <option>Select Gender</option>
+            <option>Male</option>
+            <option>Female</option>
+        </select>
+
+        <h3>Admission Details</h3>
+
+        <label>Class</label>
+        <select>
+            <option>Select Class</option>
+            <option>Nursery</option>
+            <option>KG</option>
+            <option>Class 1</option>
+            <option>Class 2</option>
+            <option>Class 3</option>
+            <option>Class 4</option>
+            <option>Class 5</option>
+            <option>Class 6</option>
+            <option>Class 7</option>
+            <option>Class 8</option>
+            <option>Class 9</option>
+            <option>Class 10</option>
+        </select>
+
+        <h3>Contact Information</h3>
+
+        <label>Mobile Number</label>
+        <input type="tel" placeholder="03XXXXXXXXX">
+
+        <label>Address</label>
+        <textarea rows="3"></textarea>
+
+        <button type="submit">Submit Admission Form</button>
+    </form>
+</div>
+
+</body>
+</html>
